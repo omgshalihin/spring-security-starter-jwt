@@ -19,4 +19,5 @@ public class UserController {
     public String createUser(@RequestBody UserModel userModel) {
         return userService.createUser(userModel);
     }
+
 }
