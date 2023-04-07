@@ -1,4 +1,4 @@
-# A Spring Security 6.0 Guide For Spring Boot 3
+# A Spring Security 6.0 Guide For Spring Boot 3 With JWT
 
 ## Background
 ...
