@@ -6,6 +6,7 @@
 ...
 ...
 ![JWT explanation.png](src%2Fmain%2Fresources%2Fpictures%2FJWT%20explanation.png)
+[Encryption Key Generator](https://www.allkeysgenerator.com/random/security-encryption-key-generator.aspx)
 
 [//]: # ()
 [//]: # (## Spring Frameworks)
