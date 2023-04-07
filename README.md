@@ -1,9 +1,11 @@
 # Spring Authentication & Authorization With JWT
 ### visit [Spring Authentication & Authorization Without JWT](https://github.com/omgshalihin/spring-security-starter)
 
-[//]: # (## Background)
-
-[//]: # (...)
+## Background
+...
+...
+...
+![JWT explanation.png](src%2Fmain%2Fresources%2Fpictures%2FJWT%20explanation.png)
 
 [//]: # ()
 [//]: # (## Spring Frameworks)
