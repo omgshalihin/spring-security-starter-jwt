@@ -20,6 +20,7 @@ public class JWTService {
 
     @Value("${jwt.secret}")
     private String SECRET;
+    private final int MINUTES = 30;
 
     public String generateToken(String username) {
         Map<String, Object> claims = new HashMap<>();
@@ -31,7 +32,7 @@ public class JWTService {
                 .setClaims(claims)
                 .setSubject(username)
                 .setIssuedAt(new Date(System.currentTimeMillis()))
-                .setExpiration(new Date(System.currentTimeMillis() + 1000*60*30))
+                .setExpiration(new Date(System.currentTimeMillis() + 1000*60*MINUTES))
                 .signWith(getSignKey(), SignatureAlgorithm.HS256)
                 .compact();
     }
